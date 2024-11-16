@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf5f8; /* Baby pink */
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #d6f5e3; /* Seafoam green */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 600px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.controls,
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea,
+input[type="date"],
+select {
+  padding: 10px;
+  border: 2px solid #a6ded3; /* Seafoam border */
+  border-radius: 5px;
+  outline: none;
+}
+button {
+  background-color: #f5c9d7; /* Baby pink */
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #f4b0c4;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+}
+
+li {
+  background-color: white;
+  padding: 10px;
+  border: 2px solid #a6ded3;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+li .details {
+  margin-bottom: 5px;
+}
+
+li .details span {
+  font-weight: bold;
+}
+
+li .actions {
+  display: flex;
+  gap: 10px;
+}
+
+button.edit-btn {
+  background-color: #fce1e8; /* Baby pink */
+}
+
+button.delete-btn {
+  background-color: #ffd1d1; /* Soft red */
+}
+  background-color: #ffd1d1; /* Soft red */
+}
