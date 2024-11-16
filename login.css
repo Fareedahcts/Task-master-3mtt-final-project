@@ -1,0 +1,72 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf5f8; /* Baby pink */
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.auth-container {
+  background-color: #d6f5e3; /* Seafoam green */
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid #a6ded3; /* Seafoam border */
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  background-color: #f5c9d7; /* Baby pink */
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #f4b0c4;
+}
+
+.toggle {
+  text-align: center;
+  font-size: 14px;
+}
+
+.toggle span {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.toggle span:hover {
+  text-decoration: underline;
+}
+
+.form {
+  display: none;
+}
+
+.form.active {
+  display: block;
+}
